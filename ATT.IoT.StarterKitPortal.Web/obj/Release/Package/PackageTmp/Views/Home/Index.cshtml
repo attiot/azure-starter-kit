@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    section.left-small > div.att-portal-navlink {
+        display: none !important;
+    }
+
+    .att-navbar-title {
+        margin-left: 15px;
+    }
+
+      /*.off-canvas-wrap {
+        overflow: visible;
+    }*/
+</style>
+@section scripts{
+    <script type="text/javascript">
+        var appSettings = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.AppSettings));
+
+        var viewModel = new ATT.IoT.StarterKitPortal.ViewModels.Login();
+        try
+        {
+            ko.applyBindings(viewModel, document.getElementById("att-splash-shell"));
+        }
+        catch(ex)
+        {
+            viewModel.toastPanel.Error("Sorry, there was problem loading the login page.");
+        }
+
+    </script>
+}
+
+<div id="att-splash-shell" data-bind="style: {'background-image':'linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url('+SplashScreenUrl()+')' }">
+    <div class="row att-splash-hdr">
+        <div class="large-12 medium-12 small-12 small-centered columns">
+            <span class="att-splash-welcomeTxt">AT&T IoT Starter Kit </span>
+            <span class="att-splash-welcomeTxt">Quick Start Dashboard</span>
+        </div>
+    </div>
+
+    <div class="row att-splash-controls">
+        <div class="large-12 medium-12 small-12 small-centered columns">
+            <input id="att-simICCID" class="att-splash-inputTxt att-splash-controls-inline" data-bind="value: iccID" placeholder="Enter your SIM CCID" />
+            <button class="att-splash-submitBtn att-splash-controls-inline att-button" data-bind="click: validateDevice">GO</button>
+            <div class="att-splash-getstarted">
+                <span class="att-splash-getstartedTxt">Is this your first time? </span>
+                <span><a class="att-splash-getstartedLink" href="/Home/GetStarted">Click here to get started</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+

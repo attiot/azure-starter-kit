@@ -1,0 +1,183 @@
+﻿
+
+
+/* Head Lie Animation */
+.head.headLie {
+    animation-name:headLie, anmimation;
+}
+
+
+@keyframes headLie {
+    from {
+
+    }
+    to {
+        top:80px;
+        left:80px;     
+    }
+}
+
+
+/* Torso Lie Animation */
+.torso.torsoLie {
+    animation-name:torsoLie;
+}
+
+
+@keyframes torsoLie {
+    from {
+
+    }
+    to {
+        top:94px;
+        left:73px;
+        transform: rotate(90deg);
+    }
+}
+
+
+/* Left Arm Lie Animation */
+.arm.left.armLeftLie {
+    animation-name:armLeftLie;
+}
+
+
+@keyframes armLeftLie {
+    from {
+
+    }
+    to {
+        top:90px;
+        left:70px;
+    }
+}
+
+
+
+.topArm.left.topArmLeftLie {
+    animation-name:topArmLeftLie;
+}
+
+
+@keyframes topArmLeftLie {
+    from {
+
+    }
+    to {
+        left:1px;
+        transform: rotate(-40deg)
+    }
+}
+
+
+
+.bottomArm.left.bottomArmLeftLie {
+    animation-name:bottomArmLeftLie;
+}
+
+
+@keyframes bottomArmLeftLie {
+    from {
+
+    }
+    to {
+        top:0px;
+        left:10px;
+        transform: rotate(55deg);
+    }
+}
+
+
+
+
+
+
+
+/* Right Arm Lie Animation */
+.arm.right.armRightLie {
+    animation-name:armRightLie;
+}
+
+
+@keyframes armRightLie {
+    from {
+
+    }
+    to {
+        top:90px;
+        left:70px;
+    }
+}
+
+
+.topArm.right.topArmRightLie {
+    animation-name:topArmRightLie;
+}
+
+
+@keyframes topArmRightLie {
+    from {
+
+    }
+    to {
+        transform: rotate(135deg);
+    }
+}
+
+
+
+.bottomArm.right.bottomArmRightLie {
+    animation-name:bottomArmRightLie;
+
+}
+
+
+@keyframes bottomArmRightLie {
+    from {
+       
+    }
+    to {
+    top:-30px;
+    left:-9px;
+    transform: rotate(215deg);
+
+    }
+}
+
+
+
+/* Leg Lie Animation */
+.leg.left.legLeftLie {
+    animation-name:legLeftLie;
+}
+
+
+@keyframes legLeftLie {
+    from {
+
+    }
+    to {
+        top:94px;
+        left:32px;
+        transform: rotate(90deg);
+    }
+}
+
+
+
+
+.leg.right.legRightLie {
+    animation-name:legRightLie;
+}
+
+
+@keyframes legRightLie {
+    from {
+
+    }
+    to {
+        top:94px;
+        left:32px;
+        transform: rotate(90deg);
+    }
+}

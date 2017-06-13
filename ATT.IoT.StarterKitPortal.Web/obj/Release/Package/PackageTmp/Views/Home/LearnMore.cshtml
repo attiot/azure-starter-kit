@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Learn More";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .off-canvas-wrap {
+        overflow: visible;
+    }
+</style>
+
+<div class="top-bar">
+    <ul class="title-area">
+        <li class="name"><span class="att-topbar-title">Learn More</span></li>
+    </ul>
+</div>
+<div id="att-learnmore-content">
+    <div class="row">
+        <div class="small-12 columns">
+            <p>Use AT&T Flow Designer and Microsoft Azure cloud services to build your own robust IoT Solutions.</p>
+            <img class="att-learnmore-visual" src="~/Content/images/Architecture/ATT_IoTStarterKit_Architecture.png"/>
+            <div class="att-learmmore-desc">
+                <img  src="~/Content/images/Learn More/FlowIconSmall.png" />
+                <span class="att-learnmore-logotxt">AT&T Flow Designer</span>
+                <p>Flow is a web-based development environment where data driven applications can be designed and deployed with ease.</p>
+                <button class="att-button" onclick="window.open('https://flow.att.com/','_blank')">Get Started</button>
+            </div>
+            <div class="att-learmmore-desc">
+                <img class="att-learnmore-logo" src="~/Content/images/Learn More/Azure IoTHub_Logo.png" />
+                <span class="att-learnmore-logotxt">Azure IoT Hub</span>
+                <p>A fully managed service that enables reliable and secure bidirectional communications between millions of IoT devices and a solution back end.</p>
+                <button class="att-button" onclick="window.open('https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-what-is-iot-hub','_blank')">Get Started</button>
+            </div>
+            <div class="att-learmmore-desc">
+                <img class="att-learnmore-logo" src="~/Content/images/Learn More/Azure Stream Analytics_Logo.png" />
+                <span class="att-learnmore-logotxt">Azure Stream Analytics</span>
+                <p>Real-time analytic computations on data streaming from devices, sensors, web sites, social media, applications, infrastructure systems, and more.</p>
+                <button class="att-button" onclick="window.open('https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction', '_blank')">Get Started</button>
+            </div>
+            <div class="att-learmmore-desc">
+                <img class="att-learnmore-logo" src="~/Content/images/Learn More/Azure Storage Table_Logo.png" />
+                <span class="att-learnmore-logotxt">Azure Table Storage</span>
+                <p>A NoSQL key-value store for rapid development using massive semi-structured datasets.</p>
+                <button class="att-button" onclick="window.open('https://docs.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-tables', '_blank')">Get Started</button>
+            </div>
+            <div class="att-learmmore-desc">
+                <img class="att-learnmore-logo" src="~/Content/images/Learn More/Azure Web App_Logo.png" />
+                <span class="att-learnmore-logotxt">Azure Web App</span>
+                <p>A fully managed compute platform that is optimized for hosting websites and web applications.</p>
+                <button class="att-button" onclick="window.open('https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-overview', '_blank')">Get Started</button>
+            </div>
+            <div class="att-learmmore-desc">
+                <img class="att-learnmore-logo" src="~/Content/images/Learn More/Azure API Apps_Logo.png" />
+                <span class="att-learnmore-logotxt">Azure API App</span>
+                <p>A cloud service that provides features that make it easier to develop, host, and consume APIs in the cloud and on-premises.</p>
+                <button class="att-button" onclick="window.open('https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform', '_blank')">Get Started</button>
+            </div>
+            <div class="att-learmmore-desc">
+                <img class="att-learnmore-logo" src="~/Content/images/Learn More/Azure Application Insights_Logo.png" />
+                <span class="att-learnmore-logotxt">Azure Application Insights</span>
+                <p>Application Insights is an extensible Application Performance Management (APM) service for web developers.</p>
+                <button class="att-button" onclick="window.open('https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview', '_blank')">Get Started</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section NavLeft{
+    
+    @{ Html.RenderPartial("_OptionsNav", new ViewDataDictionary { { "Title", "Learn More" }, { "DropdownName", "drop-lg" } }); }
+}
+
+@section NavLeftSmall{
+    
+    @{ Html.RenderPartial("_OptionsNav", new ViewDataDictionary { { "Title", "Learn More" }, { "DropdownName", "drop-sm" } }); }
+}

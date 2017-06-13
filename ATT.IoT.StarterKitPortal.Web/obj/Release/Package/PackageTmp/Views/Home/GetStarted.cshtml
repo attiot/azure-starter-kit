@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Getting Started";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    /*.off-canvas-wrap {
+        overflow: visible;
+    }*/
+
+    section.left-small > div.att-portal-navlink {
+        display: none !important;
+    }
+
+    .att-navbar-title {
+        margin-left: 15px;
+    }
+    
+</style>
+
+<div class="top-bar">
+    <ul class="title-area">
+        <li class="name"><span class="att-topbar-title">Getting Started</span></li>
+    </ul>
+</div>
+<div id="att-getstarted-content">
+    <div class="row">
+        <div class="small-12 columns">
+            <ol class="att-ol-txt" type="1">
+                <li><p>Complete all the setup tasks defined in the <a href="https://attiotkitdevstorage.blob.core.windows.net/attiotkitdevdocumentation/GettingStartedGuide_ATT_IOT_rv1-3.pdf">AT&T IoT Starter Kit  Getting Started Guide</a>.</p></li>
+                <li><p>Download the <a href="~/mBed/ATT_Cellular_IOT_K64F.bin">ATT_IoTStarterKit_AzureAnalyticsDemo.bin</a> file.</p></li>
+                <li><p>Connect the USB cable from your laptop to the FRDM-K64F board to force a board power cycle.  (If already connected, disconnect, and then reconnect). Wait for the MBED drive to enumerate.</p></li>
+                <li><p>Once the MBED drive is enumerated, drag and drop the ATT_IoTStarterKit_AzureAnalyticsDemo.bin you just downloaded to the MBED drive.</p></li>
+            </ol>
+            <p>
+                <button class="att-button" id="home_Btn" onclick="window.location = '/home'">Home</button>
+            </p>
+        </div>
+    </div>
+</div>

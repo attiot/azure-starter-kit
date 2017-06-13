@@ -1,0 +1,37 @@
+D:\VSTS-Git\ATT Starter Kit\ATT%20IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.csprojResolveAssemblyReference.cache
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATTFallDashboard_LoadTest.loadtest
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATT.IoT.StarterKitPortal.UnitTest.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATT.IoT.StarterKitPortal.UnitTest.pdb
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Ionic.Zip.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Newtonsoft.Json.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\WebDriver.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\WebDriver.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.csprojResolveAssemblyReference.cache
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.pdb
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATTFallDashboard_LoadTest.loadtest
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATT.IoT.StarterKitPortal.UnitTest.dll
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATT.IoT.StarterKitPortal.UnitTest.pdb
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Ionic.Zip.dll
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Newtonsoft.Json.dll
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\WebDriver.dll
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\WebDriver.xml
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.csprojResolveAssemblyReference.cache
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.dll
+C:\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.pdb
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATTFallDashboard_LoadTest.loadtest
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATT.IoT.StarterKitPortal.UnitTest.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\ATT.IoT.StarterKitPortal.UnitTest.pdb
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Ionic.Zip.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Newtonsoft.Json.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\WebDriver.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\WebDriver.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.csprojResolveAssemblyReference.cache
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.UnitTest\obj\Debug\ATT.IoT.StarterKitPortal.UnitTest.pdb

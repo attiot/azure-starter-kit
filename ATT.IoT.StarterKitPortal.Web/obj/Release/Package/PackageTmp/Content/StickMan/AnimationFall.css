@@ -1,0 +1,182 @@
+﻿
+
+
+/* Head Fall Animation */
+.head.headFall {
+    animation-name:headFall, anmimation;
+}
+
+
+@keyframes headFall {
+    from {
+
+    }
+    to {
+        top:80px;
+        left:80px;     
+    }
+}
+
+
+/* Torso Fall Animation */
+.torso.torsoFall {
+    animation-name:torsoFall;
+}
+
+
+@keyframes torsoFall {
+    from {
+
+    }
+    to {
+        top:94px;
+        left:73px;
+        transform: rotate(90deg);
+    }
+}
+
+
+/* Left Arm Fall Animation */
+.arm.left.armLeftFall {
+    animation-name:armLeftFall;
+}
+
+
+@keyframes armLeftFall {
+    from {
+
+    }
+    to {
+        top:90px;
+        left:70px;
+    }
+}
+
+
+
+.topArm.left.topArmLeftFall {
+    animation-name:topArmLeftFall;
+}
+
+
+@keyframes topArmLeftFall {
+    from {
+
+    }
+    to {
+
+    }
+}
+
+
+
+.bottomArm.left.bottomArmLeftFall {
+    animation-name:bottomArmLeftFall;
+}
+
+
+@keyframes bottomArmLeftFall {
+    from {
+
+    }
+    to {
+        top:-3px;
+        left:-8px;
+        transform: rotate(-82deg);
+    }
+}
+
+
+
+
+
+
+
+/* Right Arm Fall Animation */
+.arm.right.armRightFall {
+    animation-name:armRightFall;
+}
+
+
+@keyframes armRightFall {
+    from {
+
+    }
+    to {
+        top:90px;
+        left:70px;
+    }
+}
+
+
+.topArm.right.topArmRightFall {
+    animation-name:topArmRightFall;
+}
+
+
+@keyframes topArmRightFall {
+    from {
+
+    }
+    to {
+        transform: rotate(110deg);
+    }
+}
+
+
+
+.bottomArm.right.bottomArmRightFall {
+    animation-name:bottomArmRightFall;
+
+}
+
+
+@keyframes bottomArmRightFall {
+    from {
+       
+    }
+    to {
+        top:-20px;
+        left:-12px;
+        transform: rotate(-50deg);
+
+    }
+}
+
+
+
+/* Leg Fall Animation */
+.leg.left.legLeftFall {
+    animation-name:legLeftFall;
+}
+
+
+@keyframes legLeftFall {
+    from {
+
+    }
+    to {
+        top:94px;
+        left:32px;
+        transform: rotate(90deg);
+    }
+}
+
+
+
+
+.leg.right.legRightFall {
+    animation-name:legRightFall;
+}
+
+
+@keyframes legRightFall {
+    from {
+
+    }
+    to {
+        top:94px;
+        left:32px;
+        transform: rotate(110deg);
+    }
+}

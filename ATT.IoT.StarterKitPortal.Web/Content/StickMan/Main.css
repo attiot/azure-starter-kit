@@ -1,0 +1,379 @@
+﻿.stickManContainer {
+
+    background-color:transparent;
+    min-width:100px;
+    height:100px;
+    position:relative;
+}
+
+
+.stickMan {
+  background-color: white;
+}
+
+
+.head {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:inherit;
+}
+
+
+
+.torso {
+    position:absolute;
+    width: 9px;
+    height: 40px;
+    border-radius: 3px;
+    background-color:inherit;
+}
+
+
+.bodyAppendage{
+    border-radius: 3px;
+    background-color:inherit;
+    position:absolute;
+    width:6px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------- */
+/* SHared Properties - Static */
+/* ---------------------------- */
+
+.arm
+{
+
+}
+
+
+.topArm{
+    height: 18px;
+     top:3px;
+}
+
+
+.bottomArm{
+    height: 18px;
+}
+
+
+
+.leg{
+    height: 39px;
+}
+
+/* ---------------------------- */
+/* end - SHared Properties - static */
+/* ---------------------------- */
+
+
+
+
+
+
+/* ---------------------------- */
+/* SHared Properties - Dymanic */
+/* ---------------------------- */
+
+.arm
+{
+    /* Animate Up*/
+   top:24px;
+   
+   /* Animate Fall*/
+   /*top:90px;*/
+
+  
+}
+
+
+.leg{
+    /* Animate Up*/
+    top:66px;
+    
+    /* Animate Fall*/
+    /*top:94px;*/
+}
+
+/* ---------------------------- */
+/* end - SHared Properties - Dymanic */
+/* ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- */
+/* Specific Properties - Dynamic*/
+/* ---------------------------- */
+
+.head
+{
+    /* Animate Up*/
+    top:0px;
+    left: 40px;
+
+    /* Animate Fall*/
+    /*top:80px;
+    left:80px;*/
+}
+
+
+
+.torso
+{
+    /* Animate Up*/
+    top:24px;
+    left:45px;
+    transform: rotate(0deg);
+
+    /* Animate Fall*/
+    /*top:94px;
+    left:73px;
+    transform: rotate(90deg);*/
+    transform-origin: top center;
+}
+
+
+.arm.left {
+
+    /* Animate Up*/
+   left:35px;
+
+   /* Animate Fall*/
+   /*left:70px;*/
+
+
+}
+
+
+.topArm.left
+{
+
+    left:3px;
+    transform: rotate(45deg);
+    transform-origin: top center;
+
+}
+
+
+.bottomArm.left {
+
+    /* Animate Up*/
+    top:-1px;
+    left:-8px;
+    transform: rotate(-45deg);
+
+    /* Animate Fall*/
+    /*top:-3px;
+    left:-8px;
+    transform: rotate(-82deg);*/
+    
+    
+    transform-origin: bottom center;
+    transition:1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arm.right {
+
+    /* Animate Up*/
+   left:52px;
+   
+   /* Animate Fall*/
+   /*left:70px;*/
+
+}
+
+
+.topArm.right
+{
+    left:3px;
+
+    /* Animate Up*/
+    transform: rotate(-45deg);
+
+
+    /* Animate Fall*/
+    /*transform: rotate(110deg);*/
+
+
+    transform-origin: top center;
+}
+
+
+.bottomArm.right {
+    
+    /* Animate Up*/
+    top:8px;
+    left:5px;
+    transform: rotate(45deg);
+
+    /* Animate Fall*/
+    /*top:-20px;
+    left:-12px;
+    transform: rotate(-50deg);
+    */
+
+    
+    transform-origin: bottom center;
+    transition:1s;
+}
+
+
+
+
+
+.leg.left{
+    /* Animate Up*/
+    left:41px;
+    transform: rotate(25deg);
+
+    /* Animate Fall*/
+    /*left:32px;
+    transform: rotate(90deg);*/
+    
+    transform-origin: top center;
+
+}
+
+
+
+.leg.right{
+
+     /* Animate Up*/
+    left:52px;
+    transform: rotate(-25deg);
+
+
+     /* Animate Fall*/
+    /*left:32px;
+    transform: rotate(110deg);*/
+
+
+    transform-origin: top center;
+
+}
+
+
+/* ---------------------------- */
+/* end - Specific Properties*/
+/* ---------------------------- */
+
+
+/* ---------------------------- */
+/* Animations */
+/* ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*Shared Motion animation settings*/
+.head.headFall, 
+.torso.torsoFall,
+.arm.left.armLeftFall,
+.topArm.left.topArmLeftFall,
+.bottomArm.left.bottomArmLeftFall,
+.arm.right.armRightFall,
+.topArm.right.topArmRightFall,
+.bottomArm.right.bottomArmRightFall,
+.leg.left.legLeftFall,
+.leg.right.legRightFall,
+.head.headStand, 
+.torso.torsoStand,
+.arm.left.armLeftStand,
+.topArm.left.topArmLeftStand,
+.bottomArm.left.bottomArmLeftStand,
+.arm.right.armRightStand,
+.topArm.right.topArmRightStand,
+.bottomArm.right.bottomArmRightStand,
+.leg.left.legLeftStand,
+.leg.right.legRightStand,
+.head.headLie, 
+.torso.torsoLie,
+.arm.left.armLeftLie,
+.topArm.left.topArmLeftLie,
+.bottomArm.left.bottomArmLeftLie,
+.arm.right.armRightLie,
+.topArm.right.topArmRightLie,
+.bottomArm.right.bottomArmRightLie,
+.leg.left.legLeftLie,
+.leg.right.legRightLie
+ {
+    animation-duration:.7s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:forwards;
+}
+
+/**/
+
+/* Wave Animation */
+.waving {
+
+    animation-duration:.7s;
+    animation-name:wave;
+    animation-iteration-count:2;
+    animation-direction:alternate;
+    animation-fill-mode:unset;
+}
+
+
+@keyframes wave {
+    from{
+        transform: rotate(-45deg);
+    }
+
+    to{
+        transform: rotate(45deg);
+    }
+
+}
+
+
+
+/* ---------------------------- */
+/* Throw Away */
+/* ---------------------------- */
+
+
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}

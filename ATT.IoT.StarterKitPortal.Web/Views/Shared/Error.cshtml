@@ -1,0 +1,31 @@
+﻿
+@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@{
+    var errorMessage = String.Empty;
+    var errorContext = String.Empty;
+    var exception = Model.Exception;
+
+    errorContext = "Exception: " + exception.GetType() + "thrown in Controller - '" + Model.ControllerName + "' action - '" + Model.ActionName +"'";
+    errorMessage =  exception.Message;
+
+}
+<div class="row att-errorpage-shell">
+    <div class="columns large-12">
+        <div><h2>ERROR</h2></div>
+        <div>
+            <p class="att-errorpage-hdr">Sorry, an unexpected error occured while processing your request.</p>
+            <p>@errorContext</p>
+            <p>@errorMessage</p>
+        </div>
+        <div>
+            <a class="att-errorpage-accent" href="#">Go Back to Home Page</a>
+        </div>
+    </div>
+</div>
+

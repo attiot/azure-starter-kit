@@ -1,0 +1,153 @@
+﻿@{
+    ViewBag.Title = "Fall Detection";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .off-canvas-wrap {
+        overflow: visible;
+    }
+</style>
+@Styles.Render("~/cssbundles/StickMan")
+
+<div class="top-bar" data-bind="css:{'top-bar-alert' :  CurrentState() == 'Fall'}">
+    <ul class="title-area">
+        <li class="name">
+            <img class="att-fallhdr-logo" alt="" />
+            <span class="att-pagehdr-title" data-bind="text:DeviceID"></span>
+        </li>
+    </ul>
+</div>
+<div style="max-width:100%;width:100%;background-color:black;">
+    <div class="row valign-middle" style="">
+        <div class="large-4 medium-6 small-12 columns">
+            <div class="row">
+                <div class="medium-12 large-6 columns">
+                    <div>
+                        <span data-bind="text: CurrentState" class="att-fall-status"></span>
+                        <span id="att-unitTest-element" style="display:none;"></span>
+                    </div>
+                </div>
+                <div class="medium-12 large-6 columns">
+                    <div class="stickManContainer bodyStyle">
+                        <div class="stickMan">
+                            <div class="head"></div>
+                            <div class="torso"> </div>
+                            <div class="arm left bodyAppendage">
+                                <div class="topArm left bodyAppendage"> </div>
+                                <div class="bottomArm left bodyAppendage"></div>
+                            </div>
+                            <div class="arm right bodyAppendage">
+                                <div class="topArm right bodyAppendage"></div>
+                                <div class="bottomArm right bodyAppendage "></div>
+                            </div>
+                            <div class="leg left bodyAppendage"></div>
+                            <div class="leg right bodyAppendage"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="large-8 medium-6 small-12 columns">
+            <div>
+                <div class="att-page-chart">
+                    <div id="chart-wrapper" >
+                        <canvas id="accelerometer-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="att-section-shell">
+    <div class="row">
+        <div class="large-7 medium-6 small-12 columns">
+            <div>
+                <span class="att-section-title">Fall Alert History</span>
+                <div id="att-section-grid">
+                    <div id="gridContainer" class="history-grid">
+                        <div class="row">
+                            <div class="small-3 columns history-header">Event</div>
+                            <div class="small-3 columns history-header">Date & Time</div>
+                            <div class="small-2 columns history-header">X-Axis</div>
+                            <div class="small-2 columns history-header">Y-Axis</div>
+                            <div class="small-2 columns history-header">Z-Axis</div>
+                        </div>
+                        <div data-bind="foreach: eventdataSource">
+                            <div class="row">
+                                <div class="small-3 columns history-cell">
+                                    <!-- ko if: action === 'Stood' -->
+                                    <img class="att-alertsGrid-cellImg" src="/Content/images/StandUp.png"/>
+                                    <!-- /ko -->
+                                    <!-- ko if: action === 'Fell' -->
+                                    <img class="att-alertsGrid-cellImg" src="/Content/images/Fall.png"/>
+                                    <!-- /ko -->
+                                    <!-- ko if: action === 'Laid Down' -->
+                                    <img class="att-alertsGrid-cellImg" src="/Content/images/LieDown.png"/>
+                                    <!-- /ko -->
+                                    <span data-bind="text: action"></span>
+                                </div>
+                                <div class="small-3 columns history-cell">
+                                    <span data-bind="text: Date"></span>
+                                    <span data-bind="text: Time"></span>
+                                </div>
+                                <div class="small-2 columns history-cell" data-bind="text: accelx"></div>
+                                <div class="small-2 columns history-cell" data-bind="text: accely"></div>
+                                <div class="small-2 columns history-cell" data-bind="text: accelz"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="att-section-separator large-5 medium-6 small-12 columns">
+            <span class="att-section-title">How do I initiate a fall?</span>
+            <ol class="att-ol-txt" style="display:inline-block;" type="1">
+                <li><p class="att-section-desc">To start, stand the IoT Starter Kit vertically where the antenna cable connectors are at the bottom.</p></li>
+                <li><p class="att-section-desc">Gently lay the IoT Starter Kit down where all 4 of the padded feet are touching the ground.</p></li>
+                <li><p class="att-section-desc">Once lying down, the stick man should animate and a new entry is added to the Fall History grid.</p></li>
+            </ol>
+            <p class="att-fall-InitiateShell">
+                <img class="att-fall-initiateImg" src="~/Content/images/ATT_DeviceLayDown.png" alt=""/>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="row"><br /><br /></div>
+
+
+@section NavLeft{
+    
+
+    @{ Html.RenderPartial("_OptionsNav", new ViewDataDictionary { { "Title", "Fall Detection" }, { "DropdownName", "drop-lg" } }); }
+}
+
+@section NavLeftSmall{
+    
+    @{ Html.RenderPartial("_OptionsNav", new ViewDataDictionary { { "Title", "Fall Detection" }, { "DropdownName", "drop-sm" } }); }
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/chartjs")
+    <script type="text/javascript">
+        var appSettings = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.AppSettings));
+        var viewModel = new ATT.IoT.StarterKitPortal.ViewModels.FallDetection("accelerometer-chart");
+        try {
+            ko.applyBindings(viewModel);
+        } catch (ex) {
+            viewModel.toastPanel.Error("Sorry, there was problem binding dashboard data for your device.");
+        }
+
+        $(document).ready(function() {
+            try {
+                viewModel.poll();
+                viewModel.stickManView._waveIntervalID = setInterval(viewModel.stickManView.wave, 2000);
+            } catch (ex) {
+                viewModel.toastPanel.Error("Sorry, there was problem retrieving dashboard data for your device.");
+                viewModel.appInsightsHandler.sendException(ex,
+                    "Fall Detection",
+                    "Error polling & retrieving device data");
+            }
+        });
+    </script>
+}
+

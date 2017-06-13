@@ -1,0 +1,127 @@
+﻿@{
+    ViewBag.Title = "Package Monitor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .off-canvas-wrap {
+        overflow: visible;
+    }
+</style>
+<div class="top-bar">
+    <ul class="title-area">
+        <li class="name">
+            <img class="att-packagehdr-logo" alt="" />
+            <span class="att-pagehdr-title" data-bind="text:DeviceID"></span>
+        </li>
+    </ul>
+</div>
+<div style="max-width:100%;width:100%;background-color:black;">
+    <div class="row">
+        <div class="large-6 medium-6 columns">
+            <div >
+                <div class="att-page-chart">
+                    <div id="magnitude-chart">
+                        <canvas id="magnitude-chart-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 medium-6 columns">
+            <div>
+                <div class="att-page-chart">
+                    <div id="accelerometer-chart">
+                        <canvas id="accelerometer-chart-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="att-section-shell">
+    <div class="row">
+        <div class="large-7 medium-7 small-12 columns">
+            <div>
+                <span class="att-section-title">Package Monitor Alert History</span>
+                <div id="att-section-grid">
+                    <div id="gridContainer" class="history-grid">
+                        <div class="row">
+                            <div class="small-2 columns history-header">Impact Level</div>
+                            <div class="small-2 columns history-header">Date & Time</div>
+                            <div class="small-2 columns history-header">Magnitude</div>
+                            <div class="small-2 columns history-header">X-Axis</div>
+                            <div class="small-2 columns history-header">Y-Axis</div>
+                            <div class="small-2 columns history-header">Z-Axis</div>
+                        </div>
+                        <div data-bind="foreach: eventdataSource">
+                            <div class="row">
+                                <div class="small-2 columns history-cell">
+                                    <!-- ko if: impact === 'Small' -->
+                                    <img class="att-alertsGrid-cellImg" src="/Content/images/SmallImpact.png" />
+                                    <!-- /ko -->
+                                    <!-- ko if: impact === 'Medium' -->
+                                    <img class="att-alertsGrid-cellImg" src="/Content/images/MediumImpact.png" />
+                                    <!-- /ko -->
+                                    <!-- ko if: impact === 'Large' -->
+                                    <img class="att-alertsGrid-cellImg" src="/Content/images/LargeImpact.png" />
+                                    <!-- /ko -->
+                                    <span data-bind="text: impact"></span>
+                                </div>
+                                <div class="small-2 columns history-cell">
+                                    <span data-bind="text: Date"></span>
+                                    <span data-bind="text: Time"></span>
+                                </div>
+                                <div class="small-2 columns history-cell" data-bind="text: magnitude"></div>
+                                <div class="small-2 columns history-cell" data-bind="text: accelx"></div>
+                                <div class="small-2 columns history-cell" data-bind="text: accely"></div>
+                                <div class="small-2 columns history-cell" data-bind="text: accelz"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="att-section-separator large-5 medium-5 small-12 columns">
+            <span class="att-section-title">How do I initiate an Alert?</span>
+            <p class="att-section-desc">Pick up the IoT Starter Kit, then rapidly shake it back and forth for 5 seconds.  Readings for the X, Y, and Z-axis are then used to calculate vector magnitude, and the result is displayed in the left grid.</p>
+            <span class="att-section-title">How is magnitude Calculated?</span>
+            <p class="att-vector-shell"><img src="~/Content/images/VectorMagnitude.png" /></p>
+            </div>
+        </div>
+</div>
+<div class="row"><br /><br /></div>
+
+@section NavLeft{
+    
+    @{ Html.RenderPartial("_OptionsNav", new ViewDataDictionary { { "Title", "Package Monitor" }, {"DropdownName", "drop-lg"} }); }
+}
+
+@section NavLeftSmall{
+   
+    @{ Html.RenderPartial("_OptionsNav", new ViewDataDictionary { { "Title", "Package Monitor" }, { "DropdownName", "drop-sm" } }); }
+}
+
+@section scripts{
+@Scripts.Render("~/bundles/chartjs")
+    <script type="text/javascript">
+        var appSettings = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.AppSettings));
+        var viewModel = new ATT.IoT.StarterKitPortal.ViewModels.PackageMonitor("magnitude-chart-canvas","accelerometer-chart-canvas");
+        try{
+            ko.applyBindings(viewModel);
+        }
+        catch(ex)
+        {
+            viewModel.toastPanel.Error("Sorry, there was problem binding dashboard data for your device.");
+        }  
+        
+        $(document).ready(function () {
+        try{
+                viewModel.poll();
+          }
+                catch (ex)
+          {
+                viewModel.toastPanel.Error("Sorry, there was problem retrieving dashboard data for your device.");
+                viewModel.appInsightsHandler.sendException(ex,"Package Monitor", "Error polling & retrieving device data");
+           }
+      });
+    </script>
+}

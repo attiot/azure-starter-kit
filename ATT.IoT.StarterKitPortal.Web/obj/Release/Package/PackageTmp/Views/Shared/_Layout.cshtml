@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>@ViewBag.Title - AT&amp;T IoT Starter Kit Dev Portal</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/cssbundles/foundation")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("head", required: false)
+    <script type='text/javascript'>
+        var appInsights = window.appInsights || function (config) {
+            function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } }
+            var t = { config: config }, u = document, e = window, o = 'script', s = u.createElement(o), i, f; for (s.src = config.url || '//az416426.vo.msecnd.net/scripts/a/ai.0.js', u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Ajax']; i.length;) r('track' + i.pop()); return r('setAuthenticatedUserContext'), r('clearAuthenticatedUserContext'), config.disableExceptionTracking || (i = 'onerror', r('_' + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o), s }), t
+        }({
+            instrumentationKey: '@Microsoft.ApplicationInsights.Extensibility.TelemetryConfiguration.Active.InstrumentationKey',
+        });
+
+        window.appInsights = appInsights;
+        appInsights.trackPageView();
+    </script>
+</head>
+<body>
+    <div class="off-canvas-wrap" style="height:100%" data-offcanvas>
+        <div class="inner-wrap att-layout-innershell" style="height:100%">
+            <nav class="att-navbar-outer tab-bar show-for-small">
+                <div class="">
+                    <section id="att-navbar-leftshell" class="left-small">
+                        <div>
+                            <img class='att-navbar-attlogo' src="~/Content/images/logo-att.png" />
+                            <img class='att-navbar-mslogo' src="~/Content/images/microsoft-color.png" />
+                        </div>
+                        <div class="nav-left-additional-sm">
+                            @RenderSection("NavLeftSmall", required: false)
+                        </div>
+                    </section>
+                </div>
+            </nav>
+            <nav class="att-navbar-outer tab-bar hide-for-small">
+                <div class="row">
+                    <section id="att-navbar-leftshell" class="left-small ">
+                        <div>
+                            <img class='att-navbar-attlogo' src="~/Content/images/logo-att.png" />
+                            <img class='att-navbar-mslogo' src="~/Content/images/microsoft-color.png" />
+                            <div id="nav-left-additional">
+                                @RenderSection("NavLeft", required: false)
+                            </div>
+                        </div>
+                    </section>
+                    <section class="middle tab-bar-section">
+                        <div>
+                            @RenderSection("NavCenter", required: false)
+                        </div>
+                    </section>
+                    <section id="att-navbar-rightshell" class="right tab-bar-section">
+                        <div>
+                            @RenderSection("NavRight", required: false)
+                        </div>
+                    </section>
+                </div>
+            </nav>
+            <section class="att-content-section">
+                <div id="att-toast-panel"></div>
+                @RenderBody()
+            </section>
+        </div>
+    </div>
+    
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/foundation")
+    @Scripts.Render("~/bundles/appJS")
+    <script>
+        $(document).foundation();
+    </script>
+    @RenderSection("scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            var appInsightsHandler = new ATT.IoT.StarterKitPortal.AppInsightsManager();
+            appInsightsHandler.trackPageView("@ViewBag.Title");
+        });
+
+        //Catch unhandled js exceptions
+        window.addEventListener("error", function (e) {
+            var toast = new ATT.IoT.StarterKitPortal.ToastPanel();
+            var appInsightsLogger = new ATT.IoT.StarterKitPortal.AppInsightsManager();
+            toast.Error("Sorry, unexpected error occured. " + e.error.message);
+            appInsightsLogger.sendException(e.error.message, location.href, "File - " + e.filename + "| Line - " + e.lineno)
+            return false;
+        })
+    </script>
+</body>
+</html>

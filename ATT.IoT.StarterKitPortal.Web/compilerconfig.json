@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/foundationstyle.css",
+    "inputFile": "Content/sass/Site.scss"
+  },
+  {
+    "outputFile": "Content/attstyle.css",
+    "inputFile": "Content/att/_app.scss"
+  },
+  {
+    "outputFile": "Content/errorscreens.css",
+    "inputFile": "Content/att/_errorscreens.scss"
+  }
+]

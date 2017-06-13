@@ -1,0 +1,117 @@
+D:\VSTS-Git\ATT Starter Kit\ATT%20IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.csprojResolveAssemblyReference.cache
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ATT.IoT.StarterKitPortal.Data.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ATT.IoT.StarterKitPortal.Data.pdb
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Edm.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.OData.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Newtonsoft.Json.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\System.Spatial.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Edm.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.OData.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\Newtonsoft.Json.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\System.Spatial.xml
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.csprojResolveAssemblyReference.cache
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.dll
+D:\VSTS-Git\ATT Starter Kit\ATT IoT\ATT.IoT.StarterKitPortal\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.pdb
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ATT.IoT.StarterKitPortal.Data.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ATT.IoT.StarterKitPortal.Data.pdb
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Edm.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.OData.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Newtonsoft.Json.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\System.Spatial.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Edm.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.OData.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\Newtonsoft.Json.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\System.Spatial.xml
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\de\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\es\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\fr\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\it\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ja\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ko\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\ru\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.csprojResolveAssemblyReference.cache
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.dll
+D:\ATT Starterkit Github\ATT.IoT.StarterKitPortal.Data\obj\Debug\ATT.IoT.StarterKitPortal.Data.pdb

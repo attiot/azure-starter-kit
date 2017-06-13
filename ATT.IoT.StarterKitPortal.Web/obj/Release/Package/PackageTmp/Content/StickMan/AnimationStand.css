@@ -1,0 +1,194 @@
+﻿
+
+/* Head Stand Animation */
+.head.headStand {
+    animation-name:headStand, anmimation;
+}
+
+
+@keyframes headStand {
+    from {
+        top:80px;
+        left:80px;  
+    }
+    to {
+        top:0px;
+        left: 40px;  
+    }
+}
+
+
+/* Torso Stand Animation */
+.torso.torsoStand {
+    animation-name:torsoStand;
+}
+
+
+@keyframes torsoStand {
+    from {
+        top:94px;
+        left:73px;
+        transform: rotate(90deg);    
+    }
+    to {
+        top:24px;
+        left:45px;
+        transform: rotate(0deg);
+    }
+}
+
+
+/* Left Arm Stand Animation */
+.arm.left.armLeftStand {
+    animation-name:armLeftStand;
+}
+
+
+@keyframes armLeftStand {
+    from {
+        top:90px;
+        left:70px;
+    }
+    to {
+        top:24px;
+        left:35px;
+    }
+}
+
+
+
+.topArm.left.topArmLeftStand {
+    animation-name:topArmLeftStand;
+}
+
+
+@keyframes topArmLeftStand {
+    from {
+
+    }
+    to {
+
+    }
+}
+
+
+
+.bottomArm.left.bottomArmLeftStand {
+    animation-name:bottomArmLeftStand;
+}
+
+
+@keyframes bottomArmLeftStand {
+    from {
+        top:-3px;
+        left:-8px;
+        transform: rotate(-82deg);
+    }
+    to {
+        top:-1px;
+        left:-8px;
+        transform: rotate(-45deg);
+    }
+}
+
+
+
+
+
+
+
+/* Right Arm Stand Animation */
+.arm.right.armRightStand {
+    animation-name:armRightStand;
+}
+
+
+@keyframes armRightStand {
+    from {
+        top:90px;
+        left:70px;
+    }
+    to {
+        top:24px;
+        left:52px;
+    }
+}
+
+
+.topArm.right.topArmRightStand {
+    animation-name:topArmRightStand;
+}
+
+
+@keyframes topArmRightStand {
+    from {
+        transform: rotate(110deg);
+    }
+    to {
+        transform: rotate(-45deg);
+    }
+}
+
+
+
+.bottomArm.right.bottomArmRightStand {
+    animation-name:bottomArmRightStand;
+
+}
+
+
+@keyframes bottomArmRightStand {
+    from {
+        top:-20px;
+        left:-12px;
+        transform: rotate(-50deg);
+    }
+    to {
+        top:8px;
+        left:5px;
+        transform: rotate(45deg);
+
+    }
+}
+
+
+
+/* Leg Stand Animation */
+.leg.left.legLeftStand {
+    animation-name:legLeftStand;
+}
+
+
+@keyframes legLeftStand {
+    from {
+        top:94px;
+        left:32px;
+        transform: rotate(90deg);
+    }
+    to {
+        top:66px;
+        left:41px;
+        transform: rotate(25deg);
+    }
+}
+
+
+
+
+.leg.right.legRightStand {
+    animation-name:legRightStand;
+}
+
+
+@keyframes legRightStand {
+    from {
+        top:94px;
+        left:32px;
+        transform: rotate(110deg);
+    }
+    to {
+        top:66px;
+        left:52px;
+        transform: rotate(-25deg);
+    }
+}
